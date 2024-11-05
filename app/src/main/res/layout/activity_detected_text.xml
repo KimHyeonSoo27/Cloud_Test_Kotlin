@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/detectTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect Text" />
+
+    <Button
+        android:id="@+id/recentImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가장 최근 사진에서 텍스트 추출" />
+
+    <TextView
+        android:id="@+id/detectedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="감지된 텍스트가 여기에 표시됩니다."
+        android:textSize="16sp"
+        android:textColor="#FFC107" />
+</LinearLayout>
